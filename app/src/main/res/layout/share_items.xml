@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_share_facebook"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_share_facebook_image"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/social_icon_facebook"/>
+
+        <TextView
+            android:id="@+id/btn_video_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_share_facebook_image"
+            android:layout_toRightOf="@+id/btn_share_facebook_image"
+            android:singleLine="true"
+            android:text="@string/btn_share_item_facebook"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_share_twitter"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_share_twitter_image"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/social_icon_twitter"/>
+
+        <TextView
+            android:id="@+id/btn_share_twitter_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_share_twitter_image"
+            android:layout_toRightOf="@+id/btn_share_twitter_image"
+            android:singleLine="true"
+            android:text="@string/btn_share_item_twitter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_share_whats_app"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_share_whats_app_image"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/social_icon_whats_app"/>
+
+        <TextView
+            android:id="@+id/btn_share_whats_app_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_share_whats_app_image"
+            android:layout_toRightOf="@+id/btn_share_whats_app_image"
+            android:singleLine="true"
+            android:text="@string/btn_share_item_whats_app"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الوحدات</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- for connection error alert dialog -->
+    <string name="alert_title">خطأ</string>
+    <string name="alert_message">ٌرجى الإتصال بالإنترنت و إعادة المحاولة مرة أخرى</string>
+    <string name="alert_button">أعد تجربة</string>
+
+    <!-- for the Splash screens -->
+    <string name="title_loading">جاري التحميل</string>
+    <string name="title_refreshing_app_page">جاري تحديث الصفحة</string>
+    <string name="title_design_company">تصميم و تطوير شركة تقارب للإتصالات </string>
+
+    <!-- for slide menu -->
+    <string name="btn_back">رجوع</string>
+    <string name="btn_home">الرئيسية</string>
+    <string name="btn_media">ميديا</string>
+    <string name="btn_media_item_video">الفيديوهات</string>
+    <string name="btn_media_item_image">الصور</string>
+    <string name="btn_media_item_song">الأغاني</string>
+    <string name="btn_news">الأخبار</string>
+    <string name="btn_search">البحث</string>
+    <string name="btn_matches">مباريات و نتائج</string>
+    <string name="btn_match_item_league">دوري المناصير</string>
+    <string name="btn_match_item_asia_cl">دوري أبطال آسيا</string>
+    <string name="btn_squad">الفريق</string>
+    <string name="btn_calendar">الرزنامة</string>
+    <string name="btn_sports">رياضات أخرى</string>
+    <string name="btn_downloads">التحميلات</string>
+    <string name="btn_share">أخبر أصدقائك</string>
+    <string name="btn_share_item_facebook">فيسبوك</string>
+    <string name="btn_share_item_twitter">تويتر</string>
+    <string name="btn_share_item_whats_app">واتساب</string>
+    <string name="btn_share_item_google_plus">جوجل بلس</string>
+    <string name="btn_rate">تقييم التطبيق</string>
+    <string name="btn_about">من نحن</string>
+    <string name="btn_about_item_wehdat">عن الوحدات</string>
+    <string name="btn_about_item_takarub">عن تقارب</string>
+    <string name="btn_settings">الإعدادات</string>
+    <string name="btn_refresh">إعادة تنشيط</string>
+
+    <!-- for header titles -->
+    <string name="header_back">رجوع</string>
+    <string name="header_home">الرئيسية</string>
+    <string name="header_media">ميديا</string>
+    <string name="header_news">الأخبار</string>
+    <string name="header_search">البحث</string>
+    <string name="header_matches">مباريات و نتائج</string>
+    <string name="header_squad">الفريق</string>
+    <string name="header_calendar">الرزنامة</string>
+    <string name="header_sports">أخبار رياضية</string>
+    <string name="header_downloads">التحميلات</string>
+    <string name="header_share">أخبر أصدقائك</string>
+    <string name="header_rate">تقييم التطبيق</string>
+    <string name="header_about">من نحن</string>
+    <string name="header_settings">الإعدادات</string>
+    <string name="header_refresh">إعادة تنشيط</string>
+    <string name="header_about_wehdat">عن الوحدات</string>
+    <string name="header_about_takarub">عن تقارب</string>
+
+    <!-- for the titles -->
+    <string name="title_sport">رياضات أخرى</string>
+
+    <!-- for Home fragment screens -->
+    <string name="title_love">حب حتى الممات</string>
+    <string name="item_news_topic">الوحدات يغرد خارج السرب</string>
+    <string name="item_news_details">2015 تقرير | 15ديسمبر</string>
+    <string name="item_image_topic">تتويج فريق تحت 23بكأس</string>
+    <string name="item_image_details">البنك العربي</string>
+    <string name="item_video_topic">أهداف مبارة الوحدات</string>
+    <string name="item_video_details">والفيصلي</string>
+    <string name="ads_title">المباراة التالية</string>
+    <string name="ads_time">2015 ديسمبر 11 &#8211; 19:30</string>
+    <string name="team_neme_1">الوحدات</string>
+    <string name="team_name_2">ذات راس</string>
+
+    <!-- for setting screen -->
+    <string name="title_notification">الإشعارات</string>
+    <string name="title_alarm">التنبيهات</string>
+    <string name="title_language">اللغة</string>
+    <string name="lang_en">الإنجليزية</string>
+    <string name="lang_ar">العربية</string>
+
+    <!-- for share layout -->
+    <string name="title_downloading">تحميل</string>
+    <string name="btn_confirm_share">ﻖﻓﺍﻮﻣ</string>
+
+    <!-- for news screen -->
+    <string name="news_header_title">أخبار كرة القدم</string>
+    <string name="btn_social_media">مواقع التواصل الإجتماعي</string>
+    <string name="social_media_header_title">حائط الأخبار</string>
+    <string name="news_title">الوحدات يغرد خارج السرب</string>
+    <string name="news_date">تقرير | 15 ديسمبر 2015</string>
+    <string name="news_content">تعادل الوحدات مع فريق اتحاد الرمثا بدون اهداف وذلك في
+المباراة التي جمعتهما مساء الأحد على استاد الملك عبدالله الثاني
+في ختام مباريات الأسبوع \"14\" من دوري المناصير للمحترفين
+ورفع الوحدات رصيده إلى \"35\" نقطة ليحتفظ بالصدارة مقابل \"4\"
+نقاط لفريق اتحاد الرمثا.\n\n
+ويحتل الرمثا المركز الثاني برصيد 26 نقطة والجزيرة ثالثا برصيد 19
+نقطة وذات راس رابعا برصيد 18 نقطة ثم الاهلي خامسا برصيد 17
+نقطة وكل من الحسين والصريح برصيد 16 نقطة والفيصلي برصيد
+ 15 نقطة والبقعه 14 نقطة والمنشية 11 نقطة وشباب الاردن 11
+نقطة واتحاد الرمثا 4 نقاط</string>
+
+    <string name="news_item_title_1">فيصل إبراهيم يوقع عقده</string>
+    <string name="news_item_content_1">التدريبي اليوم</string>
+    <string name="news_item_date_1">حصري | 16 ديسمبر 2015</string>
+
+    <string name="news_item_title_2">الوحدات يغرد خارج السرب</string>
+    <string name="news_item_content_2">none</string>
+    <string name="news_item_date_2">حصري | 15 ديسمبر 2015</string>
+
+    <string name="news_item_title_3">الوحدات بطل الكأس</string>
+    <string name="news_item_content_3">none</string>
+    <string name="news_item_date_3">حصري | 11 ديسمبر 2015</string>
+
+    <string name="news_item_title_4">شباب الأردن يعلن عن فترة</string>
+    <string name="news_item_content_4">غياب لاعبه الشناق</string>
+    <string name="news_item_date_4">حصري | 10 ديسمبر 2015</string>
+
+    <string name="news_item_title_5">الوحدات للأبطال و الفيصلي</string>
+    <string name="news_item_content_5">للملحق</string>
+    <string name="news_item_date_5">حصري | 10 ديسمبر 2015</string>
+
+    <!-- for social wall screen -->
+    <string name="social_media_item_title_1">نادي الوحدات الرياضي</string>
+    <string name="social_media_item_content_1">قرر مدرب فريق الوحدات اكرم سلمان الاستغناء عن المحترف bit.ly/4dfvbdf ....</string>
+
+    <string name="social_media_title_2">Amer Shafee</string>
+    <string name="social_media_item_content_2">التعادل السلبي الأخير لا يمكن لوم المدرب فيه، بل نحن أنفسنا كلا عبين</string>
+
+    <!-- for squad screen -->
+    <string name="squad_midfielder_title">خط الوسط</string>
+
+    <string name="squad_item_name_1">محمد الدميري</string>
+    <string name="squad_item_age_1">26 سنة</string>
+    <string name="squad_item_number_1">4</string>
+
+    <string name="squad_item_name_2">محمد الباشا</string>
+    <string name="squad_item_age_2">27 سنة</string>
+    <string name="squad_item_number_2">13</string>
+
+    <string name="squad_item_name_3">فراس شلباية</string>
+    <string name="squad_item_age_3">20 سنة</string>
+    <string name="squad_item_number_3">15</string>
+
+    <string name="squad_item_name_4">رجا مصطفى</string>
+    <string name="squad_item_age_4">31 سنة</string>
+    <string name="squad_item_number_4">13</string>
+
+    <string name="squad_item_name_5">رامي الردايدة</string>
+    <string name="squad_item_age_5">21 سنة</string>
+    <string name="squad_item_number_5">25</string>
+
+    <string name="squad_player_info_title">معلومات اللاعب</string>
+    <string name="squad_player_birth_date_title">تاريخ الميلاد</string>
+    <string name="squad_player_birth_date_content">10.08.1987</string>
+    <string name="squad_player_age_title">العمر</string>
+    <string name="squad_player_age_content">25 سنة</string>
+    <string name="squad_player_height_title">الطول</string>
+    <string name="squad_player_height_content">182 سم</string>
+    <string name="squad_player_weight_title">الوزن</string>
+    <string name="squad_player_weight_content">72 كغ</string>
+    <string name="squad_player_nationality_title">الجنسية</string>
+    <string name="squad_player_nationality_content">الأردنية</string>
+    <string name="squad_player_position_title">المركز</string>
+    <string name="squad_player_position_content">ظهير أيسر</string>
+    <string name="squad_player_brief_title">نبذة عن اللاعب</string>
+    <string name="squad_player_brief_content">بدأ الدميري مسيرته الكروية مع نادي الوحدات وهو بعمر
+الخامسة عشر، و لعب مع منتخب الأردن لكرة القدم وهو
+بعمر الثامنة عشر. وقد استطاع الفوز ثلاث بطولات كأس
+العالم لكرة القدم مع منتخب بلاده أعوام 1998 و 2002 و
+ 2010, وهو اللاعب الوحيد الذي حقق هذا الإنجاز، وهو أيضا
+الهداف التاريخي للمنتخب الأردني لكرة القدم</string>
+
+    <!-- for the calendar screen -->
+    <string name="month_long_1">كانون الثاني</string>
+    <string name="month_long_2">شباط</string>
+    <string name="month_long_3">آذار</string>
+    <string name="month_long_4">نيسان</string>
+    <string name="month_long_5">أيار</string>
+    <string name="month_long_6">حزيران</string>
+    <string name="month_long_7">تموز</string>
+    <string name="month_long_8">آب</string>
+    <string name="month_long_9">أيلول</string>
+    <string name="month_long_10">تشرين الأول</string>
+    <string name="month_long_11">تشرين الثاني</string>
+    <string name="month_long_12">كانون الأول</string>
+
+    <string name="month_short_1">كانون الثاني</string>
+    <string name="month_short_2">شباط</string>
+    <string name="month_short_3">آذار</string>
+    <string name="month_short_4">نيسان</string>
+    <string name="month_short_5">أيار</string>
+    <string name="month_short_6">حزيران</string>
+    <string name="month_short_7">تموز</string>
+    <string name="month_short_8">آب</string>
+    <string name="month_short_9">أيلول</string>
+    <string name="month_short_10">تشرين الأول</string>
+    <string name="month_short_11">تشرين الثاني</string>
+    <string name="month_short_12">كانون الأول</string>
+
+    <string name="title_monday">الإثنين</string>
+    <string name="title_tuesday">ثلاثاء</string>
+    <string name="title_wednesday">أربعاء</string>
+    <string name="title_thursday">الخميس</string>
+    <string name="title_friday">جمعة</string>
+    <string name="title_saturday">السبت</string>
+    <string name="title_sunday">الأحد</string>
+
+    <string name="match_type">دوري المناصير</string>
+    <string name="match_content">الوحدات  VS الفيصلي</string>
+
+    <!-- for downloads screen -->
+    <string name="download_file_counts">10 ملفات</string>
+
+    <!-- for the rate app layout -->
+    <string name="rate_app_title">تقييم التطبيق</string>
+    <string name="rate_item_excellent">ممتاز</string>
+    <string name="rate_item_very_good">جيد جداً</string>
+    <string name="rate_item_good">جيد</string>
+    <string name="rate_item_poor">مقبول</string>
+    <string name="rate_item_bad">ضعيف</string>
+    <string name="btn_rate_cancel">إلغاء</string>
+    <string name="btn_confirm_rate">إرسال</string>
+
+    <!-- for song screen -->
+    <string name="song_item_title_1">المارد الأخضر</string>
+    <string name="song_item_title_2">جمهورك بحبك</string>
+    <string name="song_item_title_3">رأفت يا معلم</string>
+    <string name="song_item_title_4">وراك وراك حتى الممات</string>
+    <string name="song_item_title_5">نادي الأبطال</string>
+    <string name="song_item_title_6">صلوا عالزين</string>
+
+    <string name="song_item_name_1">فرقة أنا وحداتي</string>
+    <string name="song_item_name_2">عمر العبداللات</string>
+    <string name="song_item_name_3">ديانا كرزون</string>
+    <string name="song_item_name_4">فرقة أنا وحداتي</string>
+    <string name="song_item_name_5">ناجي الأسطا</string>
+    <string name="song_item_name_6">فرقة أنا وحداتي</string>
+
+    <!-- for video screen -->
+    <string name="video_item_title_1">فيصل إبراهيم يوقع عقده</string>
+    <string name="video_item_content_1">التدريبي اليوم</string>
+    <string name="video_item_date_1">حصري | 16 ديسمبر 2015</string>
+
+    <string name="video_item_title_2">الوحدات يغرد خارج السرب</string>
+    <string name="video_item_content_2">none</string>
+    <string name="video_item_date_2">حصري | 15 ديسمبر 2015</string>
+
+    <string name="video_item_title_3">الوحدات بطل الكأس</string>
+    <string name="video_item_content_3">none</string>
+    <string name="video_item_date_3">حصري | 11 ديسمبر 2015</string>
+
+    <string name="video_item_title_4">شباب الأردن يعلن عن فترة</string>
+    <string name="video_item_content_4">غياب لاعبه الشناق</string>
+    <string name="video_item_date_4">حصري | 10 ديسمبر 2015</string>
+
+    <string name="video_item_title_5">الوحدات للأبطال و الفيصلي</string>
+    <string name="video_item_content_5">للملحق</string>
+    <string name="video_item_date_5">حصري | 10 ديسمبر 2015</string>
+
+    <!-- for the about wehdat screen -->
+    <string name="about_wehdat_part_1">نادي الوحدات هو نادي أردني تأسس عام 1956 وظل تابعا
+لوكالة غوث وتشغيل اللاجئين الفلسطينيين الأونروا حتى عام
+ 1966 حيث تبع لوزارة الشباب والرياضة الأردنية.\n\n
+حصل على بطولة الدوري الأردني لكرة القدم 14 مرة كان
+آخرها في موسم 2014-15,\n\n
+وكأس الأردن لكرة القدم 10 مرات، وحصل على كأس
+الكؤوس الأردنية 12 مرة آخرها عام 2014, كما وحصل على درع
+الاتحاد الأردني 9 مرات آخرها عام 2011, وتحصل على بطول</string>
+    <string name="about_wehdat_part_2">الوحدات العربية 3 مرات عام 1987
+و 2001 و 2003, وبطولة شباب
+الأردن الكروية مرة واحدة عام
+ 2009, ودورة أريحا الشتوية مرتين
+عام 1998 و 1999, وبطولة الرمثا
+مرة واحدة عام 1993. يمارس
+ النادي بالإضافة لكرة القدم،</string>
+
+    <!-- for the about takarub screen -->
+    <string name="about_takarub_title">تعتبر شركة تقارب من الشركات الرائدة في خدمات البيانات
+المتنقلة في الأردن و الشرق الأوسط، وقد حرصت الشركة منذ
+إنشائها على استغلال الاندماج بين وسائل الأعلام و ميادين
+الاتصالات السلكية واللاسلكية وتقديم خدمات المحتوى
+وحلول الاتصال المميزة\n\n
+    لتصبح علامة تجارية معروفة خاصة على شبكات التلفاز على
+المستوى المحلي (وفقا لمجلة  Arab adsعدد فبراير 2008)
+ومصدرا للخدمات المتطورة ذات الجودة العالية للعديد من
+المشغلات الخلوية على مستوى المنطقة. تعتبر شركة تقارب
+من الشركات الرائدة في خدمات البيانات المتنقلة في الأردن و
+الشرق الأوسط، وقد حرصت الشركة منذ إنشائها على استغلال
+الاندماج بين وسائل الأعلام و ميادين الاتصالات السلكية
+واللاسلكية وتقديمات المحتوى وحلول الاتصال المميزة</string>
+
+    <!-- for the match tab items -->
+    <string name="league_title">الدوري</string>
+    <string name="match_tab_item_week">الجولات</string>
+    <string name="match_tab_item_ranking">المراكز</string>
+    <string name="match_tab_item_opponents">المواجهات</string>
+    <string name="match_tab_item_summary">الإحصائيات</string>
+
+    <!-- for the team names -->
+    <string name="team_name_ahli">الأهلي</string>
+    <string name="team_name_jazeera">الجزيرة</string>
+    <string name="team_name_ramtha">الرمثا</string>
+    <string name="team_name_asala">الأصالة</string>
+    <string name="team_name_shabab_alordon">شباب الأردن</string>
+    <string name="team_name_koforsom">كفرسوم</string>
+    <string name="team_name_faisaly">الفيصلي</string>
+    <string name="team_name_baqaa">البقعة</string>
+    <string name="team_name_that_rass">ذات راس</string>
+    <string name="team_name_wehdat">الوحدات</string>
+    <string name="team_name_hussian_irbid">الحسين إربد</string>
+    <string name="team_name_quqasi">القوقازي</string>
+
+    <!-- for tha team names with country -->
+    <string name="team_name_jordan">الوحدات</string>
+    <string name="team_name_iran">الإستقلال الإيراني</string>
+    <string name="team_name_syria">الوحدة السوري</string>
+    <string name="team_name_oman">فنجاء العماني</string>
+    <string name="team_name_ksa">الهلال السعودي</string>
+    <string name="team_name_uzbakistan">باختور الأوزبكي</string>
+    <string name="team_name_jaish">الجيش السوري</string>
+    <string name="team_name_qatar">الريان القطري</string>
+
+    <!-- for player names -->
+    <string name="player_name_1">محمد الدميري</string>
+    <string name="player_name_2">بشار سمارة</string>
+    <string name="player_name_3">صبحي الأسمر</string>
+    <string name="player_name_4">وليد عبيدات</string>
+    <string name="player_name_5">بهاء الرفاعي</string>
+    <string name="player_name_6">ضامن الضامن</string>
+    <string name="player_name_7">سعد الشراري</string>
+    <string name="player_name_8">نارت بزادوغ</string>
+
+    <!-- for the week layout -->
+    <string name="btn_previous_week">القادم</string>
+    <string name="btn_next_week">السابق</string>
+    <string name="week_title">الأسبوع</string>
+    <string name="week_order">الخامس عشر</string>
+    <string name="week_time_1">19:30 &#8211; 10 ديسمبر 2015</string>
+    <string name="week_time_2">20:00 &#8211; 10 ديسمبر 2015</string>
+    <string name="week_time_3">9:00 &#8211; 10 ديسمبر 2015</string>
+    <string name="week_time_4">14:30 &#8211; 10 ديسمبر 2015</string>
+    <string name="week_time_5">19:30 &#8211; 10 ديسمبر 2015</string>
+    <string name="week_time_6">20:00 &#8211; 10 ديسمبر 2015</string>
+
+    <!-- for the ranking layout -->
+    <string name="title_ranking_club">النادي</string>
+    <string name="title_ranking_week">الجولة</string>
+    <string name="title_ranking_goals">الأهداف</string>
+    <string name="title_ranking_points">النقاط</string>
+
+    <string name="title_group_a">المجموعة A</string>
+    <string name="title_group_b">المجموعة B</string>
+    <string name="title_play">لعب</string>
+
+    <!-- for the opponents layout -->
+    <string name="opponents_time_1">الأول الأسبوع &#8211; 10 سبتمبر 2015</string>
+    <string name="opponents_time_2">الثاني الأسبوع &#8211; 17 سبتمبر 2015</string>
+    <string name="opponents_time_3">الثالث الأسبوع &#8211; 24 سبتمبر 2015</string>
+    <string name="opponents_time_4">الرابع الأسبوع &#8211; 3 أكتوبر 2015</string>
+    <string name="opponents_time_5">الخامس الأسبوع &#8211; 11 أكتوبر 2015</string>
+    <string name="opponents_time_6">السادس الأسبوع &#8211; 13 نوفمبر 2015</string>
+    <string name="opponents_time_7">السابع الأسبوع &#8211; 20 نوفمبر 2015</string>
+
+    <!-- for the summary layout -->
+    <string name="summary_type_title">الهدافين</string>
+    <string name="summary_header_title_player">اللاعب</string>
+    <string name="summary_header_title_goals">الأهداف</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/btn_download_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_download_image_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_image_item"/>
+
+        <TextView
+            android:id="@+id/btn_download_image_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_download_image_icon"
+            android:layout_toRightOf="@+id/btn_download_image_icon"
+            android:layout_marginLeft="10dp"
+            android:text="@string/btn_media_item_image"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/btn_download_image_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/download_file_counts"
+            android:textColor="#CCCCCC"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_download_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_download_video_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_video_item"/>
+
+        <TextView
+            android:id="@+id/btn_download_video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_download_video_icon"
+            android:layout_toRightOf="@+id/btn_download_video_icon"
+            android:layout_marginLeft="10dp"
+            android:text="@string/btn_media_item_video"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/btn_download_video_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/download_file_counts"
+            android:textColor="#CCCCCC"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_download_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_download_song_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_song_item"/>
+
+        <TextView
+            android:id="@+id/btn_download_song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_download_song_icon"
+            android:layout_toRightOf="@+id/btn_download_song_icon"
+            android:layout_marginLeft="10dp"
+            android:text="@string/btn_media_item_song"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/btn_download_song_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/download_file_counts"
+            android:textColor="#CCCCCC"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,373 @@
+<resources>
+    <string name="app_name">Wehdat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- for connection error alert dialog -->
+    <string name="alert_title">Error</string>
+    <string name="alert_message">Check your connection and try again</string>
+    <string name="alert_button">Retry</string>
+
+    <!-- for the Splash screen -->
+    <string name="title_loading">Loading</string>
+    <string name="title_refreshing_app_page">Refreshing APP pages</string>
+    <string name="title_design_company">Designed and developed by Takarub L.L.C</string>
+
+    <!-- for slide menu -->
+    <string name="btn_back">Back</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_media">Media</string>
+    <string name="btn_media_item_video">Videos</string>
+    <string name="btn_media_item_image">Images</string>
+    <string name="btn_media_item_song">Songs</string>
+    <string name="btn_news">News</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_matches">Matches</string>
+    <string name="btn_match_item_league">Manaseer League</string>
+    <string name="btn_match_item_asia_cl">Asia CL</string>
+    <string name="btn_squad">Squad</string>
+    <string name="btn_calendar">Calendar</string>
+    <string name="btn_sports">Sports</string>
+    <string name="btn_downloads">Downloads</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_share_item_facebook">Facebook</string>
+    <string name="btn_share_item_twitter">Twitter</string>
+    <string name="btn_share_item_whats_app">What`s app</string>
+    <string name="btn_share_item_google_plus">Google Plus</string>
+    <string name="btn_rate">App Rating</string>
+    <string name="btn_about">About</string>
+    <string name="btn_about_item_wehdat">About Wehdat</string>
+    <string name="btn_about_item_takarub">About Takarub</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_refresh">Refresh</string>
+
+    <!-- for header titles -->
+    <string name="header_back">Back</string>
+    <string name="header_home">Home</string>
+    <string name="header_media">Media</string>
+    <string name="header_news">News</string>
+    <string name="header_search">Search</string>
+    <string name="header_matches">Matches</string>
+    <string name="header_squad">Squad</string>
+    <string name="header_calendar">Calendar</string>
+    <string name="header_sports">Sports News</string>
+    <string name="header_downloads">Download Center</string>
+    <string name="header_share">Share</string>
+    <string name="header_rate">App Rating</string>
+    <string name="header_about">About</string>
+    <string name="header_settings">Settings</string>
+    <string name="header_refresh">Refresh</string>
+    <string name="header_about_wehdat">About Wehdat</string>
+    <string name="header_about_takarub">About Takarub L.L.C</string>
+
+    <!-- for the titles -->
+    <string name="title_sport">Other Sports</string>
+
+    <!-- for Home fragment screen -->
+    <string name="title_love">Love till the end</string>
+    <string name="item_news_topic">Assaf questions `funny` decisions</string>
+    <string name="item_news_details">Report | 15 DEC 2015</string>
+    <string name="item_image_topic">Transfer Center</string>
+    <string name="item_image_details">LIVE!</string>
+    <string name="item_video_topic">Wehdat 2-1 Faisaly</string>
+    <string name="item_video_details">recap</string>
+    <string name="ads_title">Next Match</string>
+    <string name="ads_time">19:30 &#8211; 11 Dec 2015</string>
+    <string name="team_neme_1">Wehdat</string>
+    <string name="team_name_2">That Rass</string>
+
+    <!-- for setting screen -->
+    <string name="title_notification">Notifications</string>
+    <string name="title_alarm">Alarms</string>
+    <string name="title_language">Language</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ar">Arabic</string>
+
+    <!-- for share layout -->
+    <string name="title_downloading">Downloading</string>
+    <string name="btn_confirm_share">Confirm</string>
+
+    <!-- for news screen -->
+    <string name="news_header_title">Football News</string>
+    <string name="btn_social_media">Social Media</string>
+    <string name="social_media_header_title">Social Wall</string>
+    <string name="news_title">ASSAF QUESTIONS FUNNY DECISIONS</string>
+    <string name="news_date">Report | 15 DEC 2015</string>
+    <string name="news_content">Wehdat is one of the leading innovators and
+providers of VAS products and telecom solutions to
+the top telecom operators across the MENA. With
+extended focus in the development of
+path-breaking products and services, we pride
+ourselves in our quality and customer satisfaction
+that stems from our stable and paramount
+knowledge of the telecommunications domain. Our
+illustrious client list in the global telecom arena</string>
+
+    <string name="news_item_title_1">Faisal Ibrahim</string>
+    <string name="news_item_content_1">Interview</string>
+    <string name="news_item_date_1">16 DEC 2015</string>
+
+    <string name="news_item_title_2">First week summary</string>
+    <string name="news_item_content_2">none</string>
+    <string name="news_item_date_2">15 DEC 2015</string>
+
+    <string name="news_item_title_3">Wehdat Cup</string>
+    <string name="news_item_content_3">none</string>
+    <string name="news_item_date_3">11 DEC 2015</string>
+
+    <string name="news_item_title_4">Goals</string>
+    <string name="news_item_content_4">Wehdat 1 &#8211; 0 Shabab</string>
+    <string name="news_item_date_4">10 DEC 2015</string>
+
+    <string name="news_item_title_5">Goals</string>
+    <string name="news_item_content_5">Wehdat 1 &#8211; 0 Shabab</string>
+    <string name="news_item_date_5">10 DEC 2015</string>
+
+    <!-- for social wall screen -->
+    <string name="social_media_item_title_1">نادي الوحدات الرياضي</string>
+    <string name="social_media_item_content_1">قرر مدرب فريق الوحدات اكرم سلمان الاستغناء عن المحترف bit.ly/4dfvbdf ....</string>
+
+    <string name="social_media_title_2">Amer Shafee</string>
+    <string name="social_media_item_content_2">التعادل السلبي الأخير لا يمكن لوم المدرب فيه، بل نحن أنفسنا كلا عبين</string>
+
+    <!-- for squad screen -->
+    <string name="squad_midfielder_title">Midfielder</string>
+
+    <string name="squad_item_name_1">Mohammad Dmiri</string>
+    <string name="squad_item_age_1">26 year</string>
+    <string name="squad_item_number_1">4</string>
+
+    <string name="squad_item_name_2">Mohammad Basha</string>
+    <string name="squad_item_age_2">27 year</string>
+    <string name="squad_item_number_2">13</string>
+
+    <string name="squad_item_name_3">Feras Shilbaya</string>
+    <string name="squad_item_age_3">20 year</string>
+    <string name="squad_item_number_3">15</string>
+
+    <string name="squad_item_name_4">Raja Mustafa</string>
+    <string name="squad_item_age_4">31 year</string>
+    <string name="squad_item_number_4">13</string>
+
+    <string name="squad_item_name_5">Rami Radaideh</string>
+    <string name="squad_item_age_5">21 year</string>
+    <string name="squad_item_number_5">25</string>
+
+    <string name="squad_player_info_title">Player Info</string>
+    <string name="squad_player_birth_date_title">Birth Date</string>
+    <string name="squad_player_birth_date_content">10.08.1987</string>
+    <string name="squad_player_age_title">Age</string>
+    <string name="squad_player_age_content">25 year</string>
+    <string name="squad_player_height_title">Height</string>
+    <string name="squad_player_height_content">182 cm</string>
+    <string name="squad_player_weight_title">Weight</string>
+    <string name="squad_player_weight_content">72 kg</string>
+    <string name="squad_player_nationality_title">Nationality</string>
+    <string name="squad_player_nationality_content">Jordanian</string>
+    <string name="squad_player_position_title">Position</string>
+    <string name="squad_player_position_content">Defender</string>
+    <string name="squad_player_brief_title">Brief</string>
+    <string name="squad_player_brief_content">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Duis fringilla at nisl vitae mattis.
+Proin ac lacinia magna. Vestibulum auctor, augue
+id pharetra gravida, dui tortor sollicitudin orci, at
+mattis ex massa eget justo. Donec quis
+ullamcorper sapien. corper diam.</string>
+
+    <!-- for the calendar screen -->
+    <string name="month_long_1">January</string>
+    <string name="month_long_2">February</string>
+    <string name="month_long_3">March</string>
+    <string name="month_long_4">April</string>
+    <string name="month_long_5">May</string>
+    <string name="month_long_6">June</string>
+    <string name="month_long_7">July</string>
+    <string name="month_long_8">August</string>
+    <string name="month_long_9">September</string>
+    <string name="month_long_10">October</string>
+    <string name="month_long_11">November</string>
+    <string name="month_long_12">December</string>
+
+    <string name="month_short_1">Jan.</string>
+    <string name="month_short_2">Feb.</string>
+    <string name="month_short_3">Mar.</string>
+    <string name="month_short_4">Apr.</string>
+    <string name="month_short_5">May.</string>
+    <string name="month_short_6">Jun.</string>
+    <string name="month_short_7">Jul.</string>
+    <string name="month_short_8">Aug.</string>
+    <string name="month_short_9">Sep.</string>
+    <string name="month_short_10">Oct.</string>
+    <string name="month_short_11">Nov.</string>
+    <string name="month_short_12">Dec.</string>
+
+    <string name="title_monday">Mon.</string>
+    <string name="title_tuesday">Tue.</string>
+    <string name="title_wednesday">Wed.</string>
+    <string name="title_thursday">Thu.</string>
+    <string name="title_friday">Fri.</string>
+    <string name="title_saturday">Sat.</string>
+    <string name="title_sunday">Sun.</string>
+
+    <string name="match_type">Manaseer League</string>
+    <string name="match_content">Wehdat VS Faisaly</string>
+
+    <!-- for downloads screen -->
+    <string name="download_file_counts">10 Files</string>
+
+    <!-- for the rate app layout -->
+    <string name="rate_app_title">Rate it!</string>
+    <string name="rate_item_excellent">Excellent</string>
+    <string name="rate_item_very_good">Very Good</string>
+    <string name="rate_item_good">Good</string>
+    <string name="rate_item_poor">Poor</string>
+    <string name="rate_item_bad">Bad</string>
+    <string name="btn_rate_cancel">Cancel</string>
+    <string name="btn_confirm_rate">Rate</string>
+
+    <!-- for song screen -->
+    <string name="song_item_title_1">Mared Akhdar</string>
+    <string name="song_item_title_2">Gomhor Behebak</string>
+    <string name="song_item_title_3">Rafat Ya M3alem</string>
+    <string name="song_item_title_4">Warak Warak</string>
+    <string name="song_item_title_5">Nadi Alabtal</string>
+    <string name="song_item_title_6">Salo Al Zain</string>
+
+    <string name="song_item_name_1">Ana Wehdati</string>
+    <string name="song_item_name_2">Omar Abdallat</string>
+    <string name="song_item_name_3">Diana Karazon</string>
+    <string name="song_item_name_4">Ana Wehdati Band</string>
+    <string name="song_item_name_5">Naji Osta</string>
+    <string name="song_item_name_6">Ana Wehdati Band</string>
+
+    <!-- for video screen -->
+    <string name="video_item_title_1">Faisal Ibrahim</string>
+    <string name="video_item_content_1">Interview</string>
+    <string name="video_item_date_1">16 DEC 2015</string>
+
+    <string name="video_item_title_2">First week summary</string>
+    <string name="video_item_content_2">none</string>
+    <string name="video_item_date_2">15 DEC 2015</string>
+
+    <string name="video_item_title_3">Wehdat Cup</string>
+    <string name="video_item_content_3">none</string>
+    <string name="video_item_date_3">11 DEC 2015</string>
+
+    <string name="video_item_title_4">Goals</string>
+    <string name="video_item_content_4">Wehdat 1 &#8211; 0 Shabab</string>
+    <string name="videos_item_date_4">10 DEC 2015</string>
+
+    <string name="video_item_title_5">Goals</string>
+    <string name="video_item_content_5">Wehdat 1 &#8211; 0 Shabab</string>
+    <string name="video_item_date_5">10 DEC 2015</string>
+
+    <!-- for the about wehdat screen -->
+    <string name="about_wehdat_part_1">orem ipsum dolor sit amet, consectetur adipiscing
+elit. Duis fringilla at nisl vitae mattis. Proin ac lacinia
+magna. Vestibulum auctor, augue id pharetra
+gravida, dui tortor sollicitudin orci, at mattis ex
+massa eget justo. Donec quis ullamcorper sapien.
+Morbi sollicitudin sapien nec quam hendrerit
+bibendum. Proin gravida ullamcorper ipsum non
+bibendum. Duis venenatis scelerisque sem id
+facilisis. In eleifend justo nec ultrices laoreet. Duis
+sed ullamcorper diam.Lorem ipsum dolor sit amet,</string>
+    <string name="about_wehdat_part_2">consectetur adipiscing elit.
+ullamcorper ipsum non
+bibendum. Duis venenatis
+scelerisque sem id facilisis.
+In eleifend justo nec ultrices
+laoreet. Duis sed ullamcorper diam.</string>
+
+    <!-- for the about takarub screen -->
+    <string name="about_takarub_title">TAKARUB is one of the leading innovators and
+providers of VAS products and telecom solutions to
+the top telecom operators across the MENA. With
+extended focus in the development of path-breaking
+products and services, we pride ourselves in our
+quality and customer satisfaction that stems from
+our stable and paramount knowledge of the
+telecommunications domain. Our illustrious client list
+in the global telecom arena showcases our expertise
+in this sector\n\n
+    TAKARUB is one of the leading innovators and
+providers of VAS products and telecom solutions to
+the top telecom operators across the MENA.</string>
+
+    <!-- for the match tab items -->
+    <string name="league_title">League</string>
+    <string name="match_tab_item_week">Weeks</string>
+    <string name="match_tab_item_ranking">Ranking</string>
+    <string name="match_tab_item_opponents">Opponents</string>
+    <string name="match_tab_item_summary">Summary</string>
+
+    <!-- for the team names -->
+    <string name="team_name_ahli">Ahli</string>
+    <string name="team_name_jazeera">Jazeera</string>
+    <string name="team_name_ramtha">Ramtha</string>
+    <string name="team_name_asala">Asala</string>
+    <string name="team_name_shabab_alordon">Shabab Alordon</string>
+    <string name="team_name_koforsom">Koforsom</string>
+    <string name="team_name_faisaly">Faisaly</string>
+    <string name="team_name_baqaa">Baqaa</string>
+    <string name="team_name_that_rass">That Rass</string>
+    <string name="team_name_wehdat">Wehdat</string>
+    <string name="team_name_hussian_irbid">Hussian Irbid</string>
+    <string name="team_name_quqasi">Quqasi</string>
+
+    <!-- for tha team names with country -->
+    <string name="team_name_jordan">Wehdat(Jordan)</string>
+    <string name="team_name_iran">Istklal(Iran)</string>
+    <string name="team_name_syria">Wehda(Syria)</string>
+    <string name="team_name_oman">Fanja(Oman)</string>
+    <string name="team_name_ksa">Helal(KSA)</string>
+    <string name="team_name_uzbakistan">Bakhtoor(Uzbakistan)</string>
+    <string name="team_name_jaish">Jaish(Syria)</string>
+    <string name="team_name_qatar">Rayan(Qatar)</string>
+    
+    <!-- for player names -->
+    <string name="player_name_1">Mohammad Dmiri</string>
+    <string name="player_name_2">Bashar Samara</string>
+    <string name="player_name_3">Subhi Alasmar</string>
+    <string name="player_name_4">Waleed Obaidat</string>
+    <string name="player_name_5">Bahaa Refaee</string>
+    <string name="player_name_6">Damen Aldamen</string>
+    <string name="player_name_7">Saed Sharai</string>
+    <string name="player_name_8">Nart Bazadogh</string>
+
+    <!-- for the week layout -->
+    <string name="btn_previous_week">Previous</string>
+    <string name="btn_next_week">Next</string>
+    <string name="week_title">week</string>
+    <string name="week_order">Fifteenth</string>
+    <string name="week_time_1">19:30 &#8211; 10 DEC 2015</string>
+    <string name="week_time_2">20:00 &#8211; 10 DEC 2015</string>
+    <string name="week_time_3">9:00 &#8211; 10 DEC 2015</string>
+    <string name="week_time_4">14:30 &#8211; 10 DEC 2015</string>
+    <string name="week_time_5">19:30 &#8211; 10 DEC 2015</string>
+    <string name="week_time_6">20:00 &#8211; 10 DEC 2015</string>
+    
+    <!-- for the ranking layout -->
+    <string name="title_ranking_club">Club</string>
+    <string name="title_ranking_week">Week</string>
+    <string name="title_ranking_goals">Goals</string>
+    <string name="title_ranking_points">Points</string>
+
+    <string name="title_group_a">Group A</string>
+    <string name="title_group_b">Group B</string>
+    <string name="title_play">Play</string>
+
+    <!-- for the opponents layout -->
+    <string name="opponents_time_1">1st week &#8211; 10 SEP 2015</string>
+    <string name="opponents_time_2">2nd week &#8211; 17 SEP 2015</string>
+    <string name="opponents_time_3">3rd week &#8211; 24 SEP 2015</string>
+    <string name="opponents_time_4">4th week &#8211; 3 OCT 2015</string>
+    <string name="opponents_time_5">5th week &#8211; 11 OCT 2015</string>
+    <string name="opponents_time_6">6th week &#8211; 13 NOV 2015</string>
+    <string name="opponents_time_7">7th week &#8211; 20 NOV 2015</string>
+
+    <!-- for the summary layout -->
+    <string name="summary_type_title">Scorers</string>
+    <string name="summary_header_title_player">Player</string>
+    <string name="summary_header_title_goals">Goals</string>
+</resources>

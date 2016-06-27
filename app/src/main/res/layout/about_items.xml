@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_about_wehdat"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_about_wehdat_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/mark_small"/>
+
+        <TextView
+            android:id="@+id/btn_about_wehdat_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_about_wehdat_image"
+            android:layout_toRightOf="@+id/btn_about_wehdat_image"
+            android:text="@string/btn_about_item_wehdat"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_about_takarub"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_about_takarub_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/takarub_mark"/>
+
+        <TextView
+            android:id="@+id/btn_about_takarub_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_about_takarub_image"
+            android:layout_toRightOf="@+id/btn_about_takarub_image"
+            android:text="@string/btn_about_item_takarub"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </RelativeLayout>
+</LinearLayout>

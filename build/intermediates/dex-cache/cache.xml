@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0-c9be0e3e9c9ab86b0557c16bfca4fda95e1c0c04.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\classes-a910af8a5d70ae2f9276acaf7f8ed1742e0aab9b.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\classes-cfe9f17f0136e2cd912c8414581f0904d1d829de.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0-e4d57d612df6537f69ad48e19b66f2c8a817173f.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\classes-96874e0d695c3b04faf01a0f62a9d8ef5e11d7ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\golde\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\library-2.4.0-d2d1dceaa0a3224c942f45d9a2fbcaad4e7fac72.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\classes-b221c2be01e369afd4d6b3fb58d33b96cef8ad15.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\libs\httpcore-4.3.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\httpcore-4.3.3-3c3c14c4e0f2a4772c8d97f782fef1d0c7302a22.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\exploded-aar\com.wang.avi\library\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c8bb52b30819d4a0a9c114e6ada59924f056db27">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\classes-cf6b2f0f682e4c4abaf80217f7bdb6626ec6e65e.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio Workshop\AlWehdat\app\libs\httpclient-4.3.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="18f4247ff4572a074444572cee34647c43e7c9c7">
+        <dex dex="E:\Android Studio Workshop\AlWehdat\app\build\intermediates\pre-dexed\debug\httpclient-4.3.3-f50f7030b128866c98c1e74c53209b6db8f77e63.jar" />
+    </item>
+
+</items>

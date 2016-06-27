@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/lang_en"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/lang_en_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/flag_english"/>
+
+        <TextView
+            android:id="@+id/lang_en_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/lang_en_image"
+            android:layout_toRightOf="@+id/lang_en_image"
+            android:text="@string/lang_en"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lang_ar"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/lang_ar_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/flag_arabic"/>
+
+        <TextView
+            android:id="@+id/lang_ar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/lang_ar_image"
+            android:layout_toRightOf="@+id/lang_ar_image"
+            android:text="@string/lang_ar"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </RelativeLayout>
+</LinearLayout>

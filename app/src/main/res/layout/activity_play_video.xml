@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/video_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <RelativeLayout
+        android:id="@+id/video_paused_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/btn_video_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/btn_media_back"/>
+
+        <ImageView
+            android:id="@+id/btn_video_download"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/btn_media_download"/>
+
+        <ImageView
+            android:id="@+id/btn_video_share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/btn_video_download"
+            android:layout_toStartOf="@+id/btn_video_download"
+            android:src="@drawable/btn_media_share"/>
+
+        <ImageView
+            android:id="@+id/btn_play_video"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:background="@drawable/video_play_button"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/playing_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Now Playing"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/video_time_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="00 : 00"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:id="@+id/video_progress"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/playing_title"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:id="@+id/video_progress_bar_white"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"/>
+
+        <View
+            android:id="@+id/video_progress_bar_red"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_centerVertical="true"
+            android:background="#F93434"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/video_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#000000">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            app:indicator="BallSpinFadeLoader"
+            app:indicator_color="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/image_loading_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/title_loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+
+</RelativeLayout>

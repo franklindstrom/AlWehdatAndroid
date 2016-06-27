@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/squad_player_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/squad_photo_1"/>
+
+    <LinearLayout
+        android:id="@+id/squad_player_data_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/squad_player_photo"
+        android:layout_toRightOf="@+id/squad_player_photo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/squad_player_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/squad_player_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/squad_player_years"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#CCCCCC"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/sports_dress">
+
+        <TextView
+            android:id="@+id/squad_player_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+    </RelativeLayout>
+</RelativeLayout>

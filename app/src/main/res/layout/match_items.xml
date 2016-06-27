@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_league"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_league_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_league_normal"/>
+
+        <TextView
+            android:id="@+id/btn_league_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_league_image"
+            android:layout_toRightOf="@+id/btn_league_image"
+            android:text="@string/btn_match_item_league"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_asia_cl"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_back"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/btn_asia_cl_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_asia_cl_normal"/>
+
+        <TextView
+            android:id="@+id/btn_asia_cl_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/btn_asia_cl_image"
+            android:layout_toRightOf="@+id/btn_asia_cl_image"
+            android:text="@string/btn_match_item_asia_cl"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:singleLine="true"/>
+    </RelativeLayout>
+</LinearLayout>
